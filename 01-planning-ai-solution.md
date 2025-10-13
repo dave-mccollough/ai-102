@@ -39,3 +39,61 @@ Once trained, the LLM can take an input (called a prompt) and generate coherent,
     - Video
     - Code
   
+  - Azure AI Services
+    - Azure AI Vision
+      - Allows you to process images
+        - Optical Character Recognition
+          - Extract text from image
+            - Extract printed and handwritten text from photos and documents
+        - Image Analysis
+          - Extract visual features from images such as objects and faces from images
+        - Face
+          - Detect, recognize and analyze human faces in images
+  
+    - Azure AI Language Services
+      - Provides natural language processing features
+        - Named Entity Recognition
+          - Helps identify different entities in text and catagorize them
+        - Language Detection
+          - Helps evaluate text and detect a wide range of languages
+        - Sentiment Analysis
+          - Analyzes text and identify positive or negative sentiment
+        - Key Phrase Extraction
+          - Returns main concepts from unstructed text/data
+
+    - Speech Services
+      - Convert speect to text
+      - Synthesize text to speech
+      - Translate Speech
+
+    - Translator Service
+      - Text translation capabilities
+        - Translate text from one language to another
+        - Create tailored translation models
+        - Detect the source text language
+
+    - Azure AI Video Indexer
+      - Built on top of existing Azure AI services including Translator, Vision, and Speech
+      - Extracts insights based on video and audio content
+      - Can be used for deep search, content creation, etc
+
+    - Azure AI Document Intelligence
+      - Injest documents and forms 
+      - Extract data from injested documents
+      - Provides prebuilt models or you can customize your own
+
+    - Azure OpenAI
+      - Provides access to OpenAI models
+        - Base GPT Models
+        - Reasoning Models
+        - Image Generation
+
+- AI Safety and Responsibility
+  - Privacy and Security
+    - All systems should be secure and respect privacy
+  - Inclusiveness
+    - Empower everyone and engage all people
+  - Transparency
+    - AI Systems should be understandable
+  - Accountability
+    - People should be accountable for AI systems
