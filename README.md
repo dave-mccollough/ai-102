@@ -8,3 +8,4 @@ Azure AI-102 Study Notes
 ## Notes
 
 - [Planning an Azure AI Solution](01-planning-ai-solution.md)
+- [Implement Generative AI Solutions](02-implement-generative-ai-solutions.md)
