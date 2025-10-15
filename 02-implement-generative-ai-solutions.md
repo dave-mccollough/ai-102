@@ -92,3 +92,28 @@
   - Augmenting existing LLMs with data that is relevant to your organization
   - Responses should be factually relevant
   - When prompted, the LLM will return data based on it's own knowledge and augmented data
+
+- Azure AI Content Safety
+  - Scan and moderate text
+  - Detect if responses are grounded based on intended material
+  - Prompt Shields - Prevents jailbreak attacks 
+    - Users trying to bypass the safety protocols of the model
+  - Identify protected text
+    - Song lyrics, articles, etc
+  - Detect code that may come from public repos
+  - Prevent indirect attact - prompt shield
+    - Hidden attacks - cross domain attacks
+  - Moderate image content
+    - Detect inappropiate/harmful images
+    - Combination of text and images
+    - Assess overall context of content
+  - Harm Categories
+    - Hate and Fairness
+      - Can detect discrimatory language
+    - Sexual 
+      - Vulgar content, child abuse, etc
+    - Violence
+      - Language that conveys hurt, injury, etc
+    - Self harm
+      - Detect if there is intention for individual to harm themselves
+      
